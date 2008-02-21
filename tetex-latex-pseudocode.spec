@@ -13,6 +13,7 @@ Source0:	ftp://ftp.ctan.org/pub/tex-archive/macros/latex/contrib/%{short_name}.z
 BuildRequires:	unzip
 Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
